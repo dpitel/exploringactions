@@ -1,7 +1,7 @@
 name: Condition and Expression demo
 
 on: 
-  workflow dispatch: 
+  workflow_dispatch: 
     inputs:
       failstep: 
         description: 'Fail step in Job1 (yes/no)'
