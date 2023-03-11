@@ -48,7 +48,7 @@ jobs:
         run: echo "Another step in the workflow" 
 
       - name: Step that always runs 
-        if : always()
+        if: always()
         run: This steps runs regardless of success or failure
 
       - name: Step that only runs on success of all steps
